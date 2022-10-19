@@ -1,0 +1,61 @@
+/* Battle Game Project 10/17/22 */
+
+/* FONT FAMILY RULES
+font-family: 'Carrois Gothic SC', sans-serif;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Nosifer', cursive;
+font-family: 'Pirata One', cursive;
+*/
+
+body {
+	background-image: url("castle.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-family: 'Pirata One', cursive;
+	font-size: 6em;
+	text-align: center;
+	color: darkred;
+	text-shadow: dimgrey 2px 2px 2px;
+}
+
+div#button {
+	background-color: rgb(75, 1, 1);
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size: 2.5em;
+	color: whitesmoke;
+	text-align: center;
+	box-shadow: darkred 2px 2px 5px, darkred -2px -2px 5px;
+	border-radius: 20px;
+	opacity: 0.85;
+	transition: all 1.3s;
+}
+
+div#button:hover {
+	background-color: rgb(75, 1, 1);
+	color: whitesmoke;
+	opacity: 1;
+	cursor: pointer;
+	box-shadow: unset;
+}
+
+h2#result {
+	font-family: 'Cinzel Decorative', cursive;
+	text-align: center;
+	font-size: 2.2em;
+	color: whitesmoke;
+	text-shadow: darkred 2px 2px 5px;
+}
+
+h2#death {
+	font-family: 'Nosifer', cursive;
+	text-align: center;
+	font-size: 2.2em;
+	color: darkred;
+	text-shadow: rgb(60, 60, 60) 2px 3px 5px;
+}
